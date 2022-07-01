@@ -1,0 +1,5 @@
+colorama==0.4.4
+requests==2.26.0
+google==3.0.0
+PyExifTool==0.4.11
+dnspython==2.1.0
