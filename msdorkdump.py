@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from subprocess import getoutput
 from colorama import Fore, Style, init
 import urllib.request
