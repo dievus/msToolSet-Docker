@@ -5,7 +5,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install tzdata g
 RUN \
 apt-get update && \
 apt-get install -y apt-utils python3 python3-pip git iproute2 iputils-ping net-tools nano exiftool nmap wget 
-RUN git clone https://github.com/MayorSecSecuritySolutions/msToolSet.git /opt/msToolSet
+RUN git clone https://github.com/dievus/msToolSet-docker.git /opt/msToolSet
 RUN pip3 install -r /opt/msToolSet/requirements.txt
 RUN pip3 install threader3000
 RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh)" -- \
