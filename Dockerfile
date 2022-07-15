@@ -11,7 +11,7 @@ RUN pip3 install threader3000
 RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh)" -- \
 -a 'CASE_SENSITIVE="true"'
 RUN rm -rf /root/.zshrc
-RUN wget https://gist.githubusercontent.com/dievus/8fc77e1c82a6f525d93429a25938c204/raw/3eb95d29e75e25d6f6ca608b82ccf86ac4325211/.zshrc -O /root/.zshrc
+RUN wget https://gist.githubusercontent.com/dievus/8fc77e1c82a6f525d93429a25938c204/raw/b7586d07063fadd3fb2c35d8bfdcace31b3df200/.zshrc -O /root/.zshrc
 ENTRYPOINT [ "/bin/zsh" ]
 RUN chmod +x /opt/msToolSet-Docker/oh365userfinder.py /opt/msToolSet-Docker/msdnsscan.py /opt/msToolSet-Docker/geemailuserfinder.py /opt/msToolSet-Docker/msdorkdump.py
 SHELL ["/bin/zsh", "-c"] 
