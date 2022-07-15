@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import dns.resolver
 import dns.zone
 import sys
