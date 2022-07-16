@@ -30,4 +30,4 @@ echo "\t                                 v1.0.0                                 
 echo "\t  Threader3000, Oh365UserFinder, MSDNSScan, MSDorkDump, GeeMailUserFinder"
 echo "\t                               By The Mayor"
 
-export PATH=$PATH:/opt/msToolSet-Docker
+export PATH=$PATH:/opt/msToolSet
