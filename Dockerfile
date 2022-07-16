@@ -11,9 +11,9 @@ RUN git clone https://github.com/dievus/threader3000.git /opt/threader3000
 RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh)" -- \
 -a 'CASE_SENSITIVE="true"'
 RUN rm -rf /root/.zshrc
-RUN wget https://gist.githubusercontent.com/dievus/8fc77e1c82a6f525d93429a25938c204/raw/4cdf103b26c4b090c7d5a2fdd6d8373fcb0c2e82/.zshrc -O /root/.zshrc
+RUN wget https://raw.githubusercontent.com/dievus/msToolSet-Docker/main/.zshrc -O /root/.zshrc
 ENTRYPOINT [ "/bin/zsh" ]
-RUN chmod +x /opt/msToolSet/oh365userfinder.py /opt/msToolSet/msdnsscan.py /opt/msToolSet/geemailuserfinder.py /opt/msToolSet/msdorkdump.py /opt/threader3000/threader3000.py
+RUN chmod +x /opt/msToolSet/oh365userfinder.py /opt/msToolSet/msdnsscan.py /opt/msToolSet/geemailuserfinder.py /opt/msToolSet/msdorkdump.py /opt/msToolSet/threader3000.py
 RUN dos2unix /opt/msToolSet/msdorkdump.py
 RUN dos2unix /opt/msToolSet/msdnsscan.py 
 RUN dos2unix /opt/msToolSet/oh365userfinder.py 
