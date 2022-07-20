@@ -9,6 +9,7 @@ Dockerized version of my MS-Tools. These include:
 - msDorkDump - https://github.com/dievus/msdorkdump
 - msDNSScan - https://github.com/dievus/msdnsscan
 - Threader3000 - https://github.com/dievus/threader3000
+- PingSweep.sh - https://github.com/dievus/pingsweep.sh
 
 Instructions for using each tool can be found at each of the links above.
 
