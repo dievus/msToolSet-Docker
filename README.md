@@ -2,6 +2,10 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M03Q2JN)
 
+<p align="center">
+  <img src="https://github.com/dievus/msToolSet-Docker/blob/main/images/image.png" />
+</p>
+
 Dockerized version of my MS-Tools. These include:
 
 - oh365UserFinder - https://github.com/dievus/Oh365UserFinder
