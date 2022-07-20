@@ -28,6 +28,7 @@ echo "\t██║ ╚═╝ ██║███████║   ██║   ╚�
 echo "\t╚═╝     ╚═╝╚══════╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝   ╚═╝"
 echo "\t                                 v1.0.0                                      "
 echo "\t  Threader3000, Oh365UserFinder, MSDNSScan, MSDorkDump, GeeMailUserFinder"
+echo "\t                               Pingsweep.sh"
 echo "\t                               By The Mayor"
 
 export PATH=$PATH:/opt/msToolSet
