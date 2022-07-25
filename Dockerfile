@@ -1,6 +1,9 @@
 FROM ubuntu as baseline
 
 LABEL maintainer="themayor" github="https://www.github.com/dievus"
+LABEL org.opencontainers.image.source="https://github.com/dievus/msToolSet-Docker"
+LABEL org.opencontainers.image.description="Dockerized version of my most used tools."
+LABEL org.opencontainers.image.authors="dievus"
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install tzdata gnupg2 wget apt-utils python3 python3-pip git iproute2 iputils-ping net-tools nano exiftool nmap wget dos2unix smbclient
 RUN git clone https://github.com/dievus/msToolSet-docker.git /opt/msToolSet
 RUN pip3 install -r /opt/msToolSet/requirements.txt
