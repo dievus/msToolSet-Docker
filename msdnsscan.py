@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import dns.resolver
 import dns.zone
 import sys
@@ -150,6 +148,10 @@ def subdom_finder():
         except dns.resolver.NXDOMAIN:
             pass
         except dns.resolver.NoAnswer:
+            pass
+        except dns.resolver.NoNameservers:
+            pass
+        except dns.exception.Timeout:
             pass
 
     print(
