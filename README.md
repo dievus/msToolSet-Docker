@@ -21,11 +21,11 @@ Instructions for using each tool can be found at each of the links above.
 
 Download the contents of the repository, extract, and run from the msToolSet-Docker directory: ```docker build . -t msToolSet```
 
-Once started, access msToolSet-Docker with ```docker exec -it <docker container name> zsh```
+Make note of the installation directory. Start the container with ```docker exec -it -v <installation directory path>:/app <docker container name> zsh```
 
 ### Installing msToolSet-Docker from Windows:
 
 Download the contents of the repository, extract, and open Powershell from the msToolSet-Docker directory and run: ```Get-Content .\Dockerfile | docker build . -t mstoolset```
 
-Once started, access msToolSet-Docker with ```docker exec -it <docker container name> zsh```
+Make note of the installation directory. Start the container with  ```docker exec -it -v <installation directory path>:/app <docker container name> zsh```
 
